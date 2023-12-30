@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -62,7 +63,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
+          <img
+            src={logo}
+            alt="logo"
+            className="w-16 h-16 object-contain rounded-full"
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Ala Eddine &nbsp;
             <span className="sm:block hidden"> | Portfolio</span>

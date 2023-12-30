@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import palestineBg from "../assets/palastine-2.jpg";
 
 const Contact = () => {
   const formRef = useRef();
@@ -120,7 +121,12 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
+        <img
+          src={palestineBg}
+          alt="palastine-background"
+          className="w-full h-full object-contain rounded-2xl "
+        />
       </motion.div>
     </div>
   );
