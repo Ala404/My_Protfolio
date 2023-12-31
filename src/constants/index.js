@@ -129,27 +129,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Ala proved me wrong.",
     name: "Smail Khelil",
-    designation: "CFO",
-    company: "Acme Co",
+    designation: null,
+    company: "Khelil",
     image:
       "https://scontent.fogx1-2.fna.fbcdn.net/v/t39.30808-1/276124414_500758021605482_2915968568691686496_n.jpg?stp=c1.3.318.318a_dst-jpg_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=5740b7&_nc_ohc=WJtNoUVYiI4AX_eGD0D&_nc_ht=scontent.fogx1-2.fna&oh=00_AfBcUFYjf8GtVixJQk8C_TuTrkbd79xg1p4se-quVYpplA&oe=65938506",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Ala does.",
     name: "Zeggai Abdullah",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: null,
+    company: "Zeggai",
     image:
       "https://scontent.fogx1-2.fna.fbcdn.net/v/t1.6435-9/187099528_199351202024886_2513046693755105174_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=be3454&_nc_ohc=5HbL8G3V5AMAX883tw1&_nc_ht=scontent.fogx1-2.fna&oh=00_AfD_Gh3wd7sYZU-QDatEdsWuiu0oz4zb66Xq50AW6BPi2Q&oe=65B6521E",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Ala optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Sadjed Nemli",
-    designation: "CTO",
+    designation: null,
     company: "456 Enterprises",
     image:
       "https://scontent.fogx1-1.fna.fbcdn.net/v/t39.30808-6/371103595_681736927156964_1599699604266341163_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=FD2Q-D-l_5cAX8_PQ7W&_nc_ht=scontent.fogx1-1.fna&oh=00_AfDBmukx3WZtkOx7AMJdxJo8mAMjKIEFK4UKLjhMCNUPwQ&oe=659345D7",
