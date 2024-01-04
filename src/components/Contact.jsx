@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { contactLinks } from "../constants";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -125,8 +126,23 @@ const Contact = () => {
         <img
           src={palestineBg}
           alt="palastine-background"
-          className="w-full h-full object-contain rounded-2xl "
+          className="w-full h-5/6 object-contain rounded-2xl "
         />
+        {/*socials links*/  }
+        <div className="flex justify-center items-center gap-5 mt-5">
+          {contactLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.link}
+              target="_blank"
+              rel="noreferrer"
+              className="text-white"
+            >
+             <img src={link.icon} alt={link.name} className="w-10 h-10" />
+            </a>
+          ))}
+        </div>
+
       </motion.div>
     </div>
   );

@@ -21,6 +21,13 @@ import {
   hoskadev,
   internship,
   quizzyDashboard,
+  github,
+  linkedin,
+  twitter,
+  email,
+  insta,
+  fb,
+
 } from "../assets";
 
 export const navLinks = [
@@ -267,5 +274,34 @@ const blogs = [
   },
 ];
 
+const contactLinks = [
+  {
+    name: "github",
+    link: "https://github.com/Ala404",
+    icon: github,
+  },
+  {
+    name: "linkedin",
+    link: "https://www.linkedin.com/in/ala-eddine-kezzouz-546a19218/",
+    icon: linkedin,
+  },
+  {
+    name: "twitter",
+    link: "https://twitter.com/AlaDinKez404",
+    icon: twitter,
+  },
+  {
+    name: "instagram",
+    link: "https://www.instagram.com/the_scar_404/",
+    icon: insta,
+  },
+  {
+    name: "facebook",
+    link: "https://www.facebook.com/alaeddine.kazzouz.3",
+    icon: fb,
+  },
 
-export { services, technologies, experiences, testimonials, projects ,blogs};
+];
+
+
+export { services, technologies, experiences, testimonials, projects ,blogs, contactLinks };
