@@ -16,7 +16,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="bg-work-pattern bg-contain bg-no-repeat bg-center">
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className=" bg-contain bg-no-repeat bg-center">
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full "
