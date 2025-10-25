@@ -29,7 +29,7 @@ import threejs from "./tech/threejs.svg";
 import vuejs from "./tech/vuejs.png";
 import django from "./tech/django.png";
 import pinia from "./tech/pinia.svg";
-import nestjs from "./tech/nestjs.png";
+import nestjs from "./tech/nestjs.svg";
 import prisma from "./tech/prisma.png";
 import mysql from "./tech/mysql.png";
 import postgresql from "./tech/postgressql.png";
