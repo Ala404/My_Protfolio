@@ -104,6 +104,5 @@ export {
   postgresql,
   primevue,
   quasar,
-  threejs,
 
 };
