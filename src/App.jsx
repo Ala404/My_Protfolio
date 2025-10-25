@@ -1,8 +1,4 @@
 import { BrowserRouter } from "react-router-dom";
-import {blogs}  from "./constants";
-import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "./utils/motion";
-import { styles } from "./styles";
 
 import {
   About,
@@ -12,14 +8,13 @@ import {
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-contain bg-no-repeat bg-center mt-24">
+        <div className=" bg-contain bg-no-repeat bg-center mt-24">
           <Navbar />
           <Hero />
         </div>
