@@ -94,4 +94,16 @@ export {
   twitter,
   email,
   quizzyDashboard,
+  hodnaImmo,
+  sendDz,
+  sadineMuebles,
+  sorino,
+  nestjs,
+  prisma,
+  mysql,
+  postgresql,
+  primevue,
+  quasar,
+  threejs,
+
 };
