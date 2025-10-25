@@ -27,18 +27,6 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <section className="bg-primary bg-contain bg-no-repeat bg-center w-full sm:px-16 px-6 mt-20 pb-14">
-          <motion.div
-            variants={fadeIn("up", "spring")}
-            className=" bg-contain bg-no-repeat bg-center"
-          >
-            <motion.div variants={textVariant()}>
-              <p className={styles.sectionSubText}>My Blogs</p>
-              <h2 className={styles.sectionHeadText}>Blogs.</h2>
-            </motion.div>
-
-          </motion.div>
-        </section>
         <div className="relative z-0">
           <Contact />
           {/* <StarsCanvas /> */}
