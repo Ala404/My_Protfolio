@@ -64,7 +64,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src={logo}
+            src="https://img.freepik.com/free-vector/flat-design-atheism-logo-template_23-2149242249.jpg?t=st=1722757802~exp=1722761402~hmac=3ec702a1548cbaa3f19c99e003a8aabea265ec08c481d5570a043baa46974efd&w=740"
             alt="logo"
             className="w-16 h-16 object-contain rounded-full"
           />

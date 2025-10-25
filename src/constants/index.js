@@ -179,6 +179,7 @@ const experiences = [
   },
 ];
 
+
 const projects = [
   {
     name: "Hodna Immo",

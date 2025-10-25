@@ -124,7 +124,7 @@ const Contact = () => {
       >
         {/* <EarthCanvas /> */}
         <img
-          src={palestineBg}
+          src="https://img.freepik.com/free-photo/cyber-security-expert-working-with-technology-neon-lights_23-2151645562.jpg?t=st=1722757050~exp=1722760650~hmac=75602da45ad9396c5c793eca89d10d7e98aa8c1833d62af2147aae1aebe44589&w=360"
           alt="palastine-background"
           className="w-full h-5/6 object-contain rounded-2xl "
         />
