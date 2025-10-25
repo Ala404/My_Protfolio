@@ -29,18 +29,30 @@ import threejs from "./tech/threejs.svg";
 import vuejs from "./tech/vuejs.png";
 import django from "./tech/django.png";
 import pinia from "./tech/pinia.svg";
+import nestjs from "./tech/nestjs.png";
+import prisma from "./tech/prisma.png";
+import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgressql.png";
+import primevue from "./tech/primevue-logo.png";
+import quasar from "./tech/quasar.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import hoskadev from "./company/hoskadev.jpg";
+import sorino from "./company/sorino_logo.jpeg";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import internship from "./internship.png";
 import quizzyDashboard from "./quizzyDashboard.png";
+import hodnaImmo from "./hodna.jpeg";
+import sendDz from "./send-dz.jpg";
+import sadineMuebles from "./sadine1.png";
 
 export {
   logo,
