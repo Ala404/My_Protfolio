@@ -7,7 +7,6 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import BlogPost from './BlogPost';
 
 
 export {
@@ -17,9 +16,7 @@ export {
   Tech,
   Experience,
   Works,
-  Feedbacks,
   Contact,
-  BlogPost,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
