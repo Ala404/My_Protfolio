@@ -4,10 +4,9 @@ import emailjs from "@emailjs/browser";
 import { contactLinks } from "../constants";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import palestineBg from "../assets/palastine-2.jpg";
+
 
 const Contact = () => {
   const formRef = useRef();

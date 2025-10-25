@@ -54,6 +54,7 @@ import hodnaImmo from "./hodna.jpeg";
 import sendDz from "./send-dz.jpg";
 import sadineMuebles from "./sadine1.png";
 
+import profilePic from "./profile.jpg";
 export {
   logo,
   backend,
@@ -104,5 +105,6 @@ export {
   postgresql,
   primevue,
   quasar,
+  profilePic,
 
 };
